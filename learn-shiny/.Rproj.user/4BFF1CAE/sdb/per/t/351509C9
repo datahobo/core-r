@@ -1,0 +1,17 @@
+{
+    "contents" : "# Shiny Tutorials\n## http://shiny.rstudio.com/tutorial/\nlibrary(shiny)\n\n# Tutorial Lesson 1: ----\n## http://shiny.rstudio.com/tutorial/lesson1/\nrunExample(\"01_hello\")\n# Now copy the files, run your own app\nrunApp(\"App-1\")\n\n# Lesson 2: user interface ----\n## http://shiny.rstudio.com/tutorial/lesson2/\nrunApp(\"App-1.2\")\n\n# Lesson 3: control widgets ----\n## http://shiny.rstudio.com/tutorial/lesson3/\nrunApp(\"App-1.3\")\n\n# Lesson 4: reactive output ----\n## http://shiny.rstudio.com/tutorial/lesson4/\nrunApp(\"census-app\", display.mode = \"showcase\")\n\n# Lesson 5: use R scripts and data ----\n## http://shiny.rstudio.com/tutorial/lesson5/\nrunApp(\"census-data-app\", display.mode = \"showcase\")\n\n# Lesson 6: use reactive expressions ----\n## http://shiny.rstudio.com/tutorial/lesson6/\nrunApp(\"stockVis\", display.mode = \"showcase\")\n\n# Lesson 7: share your apps ----\n## http://shiny.rstudio.com/tutorial/lesson7/\n",
+    "created" : 1423501695760.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "10|27|12|17|\n14|28|16|17|\n18|28|20|47|\n30|28|31|45|\n",
+    "hash" : "3781270837",
+    "id" : "351509C9",
+    "lastKnownWriteTime" : 1424113348,
+    "path" : "~/Documents/github/learn-shiny/1-tutorial.R",
+    "project_path" : "1-tutorial.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

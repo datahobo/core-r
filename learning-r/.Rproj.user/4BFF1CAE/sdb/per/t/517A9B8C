@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1420667719892.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "517A9B8C",
+    "lastKnownWriteTime" : 8608480258425185138,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "deerLong",
+        "contentUrl" : "content?title=deerLong&file=ce7eace86cb74f8c92837a88b1854d15.htm",
+        "displayedObservations" : 132,
+        "displayedVariables" : 3,
+        "totalObservations" : 132,
+        "variables" : 3
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

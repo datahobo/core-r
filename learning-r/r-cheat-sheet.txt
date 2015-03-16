@@ -1,0 +1,16 @@
+R Cheat-Sheet:
+
+Frequencies:			table(data.frame$factor)
+Average:			mean(data.frame$numeric)
+	By a factor:
+				tapply(data.frame$numeric, data.frame$factor, mean)
+Std Dev:			sd(data.frame$variable)
+Distribution:			hist(data.frame$variable, breaks = x)
+
+Pearson Correlation:
+				cor(data.frame, use = "pairwise.complete.obs", method = "pearson")
+
+Distribution:	hist(data.frame$variable, breaks = x)
+Crosstabs:	table(data.frame$rows, data.frame$columns)
+	Column percentages:
+		prop.table(table(data.frame$rows, data.frame$columns), 2)
