@@ -19,3 +19,19 @@ shift<-function(x,shift_by){
     out<-x
   out
 }
+
+# I wrote this function for another project
+AddSummaryVariableToDataFrame <- function(d.data.frame, grouping.variable.as.string, 
+                              summarized.variable.as.string, summary.function) {
+  # get column refences for the key variables
+  grouping.variable <- as.numeric(which(colnames(d.data.frame) == grouping.variable.as.string))
+  summarized.variable <- as.numeric(which(colnames(d.data.frame) == summarized.variable.as.string))
+  # now use tapply to get a temporary data frame with the variable summarized by the grouping variable
+  temp <- data.frame(tapply(d.data.frame[[summarized.variable]], 
+                            d.data.frame[[grouping.variable]], summary.function))
+  temp[[2]] <- row.names(temp)
+  names(temp) <- c(paste(summary.function, summarized.variable.as.string, sep = "."),
+                   grouping.variable.as.string)
+  d.data.frame <- merge(d.data.frame, temp)
+  return(d.data.frame)
+}
