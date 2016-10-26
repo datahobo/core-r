@@ -1,3 +1,9 @@
+# This function turns all NAs in a column to zeros 
+na.zero <- function (x) {
+    x[is.na(x)] <- 0
+    return(x)
+}
+
 # This function is from : http://www.r-bloggers.com/generating-a-laglead-variables/
 shift<-function(x,shift_by){
   # shift_by is the lead/lag increment
